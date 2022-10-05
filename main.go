@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//masukkan angka
 	fmt.Println(Factorial(5))
 }
 func Factorial(numb int) int {
