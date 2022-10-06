@@ -20,7 +20,27 @@ func main() {
 	//Quiz Rabu 5 Okt
 	fmt.Println(Factorial(5))
 
+	//	Quiz Kamis 6 Okt
+	fizzbuzz(15)
 }
+
+func fizzbuzz(n int) {
+	word1 := "Fizz"
+	word2 := "Buzz"
+	word3 := "FizzBuzz"
+	for i := 1; i <= n; i++ {
+		if i%3 == 0 && i%5 == 0 {
+			fmt.Println(i, word3)
+		} else if i%3 == 0 {
+			fmt.Println(i, word1)
+		} else if i%5 == 0 {
+			fmt.Println(i, word2)
+		} else {
+			fmt.Println(i)
+		}
+	}
+}
+
 func Factorial(numb int) int {
 	result := 1
 	for i := 1; i <= numb; i++ {
