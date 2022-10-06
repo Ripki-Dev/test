@@ -20,7 +20,7 @@ func main() {
 	//Quiz Rabu 5 Okt
 	fmt.Println(Factorial(5))
 
-	//	Quiz Kamis 6 Okt
+	//Quiz Kamis 6 Okt
 	fizzbuzz(15)
 }
 
